@@ -3,14 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мої друзі</title>
+    <title>Друзі — Кулініч Юлія</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 22px;
+        }
+        .back-link {
+            font-style: italic;
+        }
+        h2 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            text-align: center;
+            background-color: green;
+            color: white;
+            font-weight: bold;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #d3d3d3;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+        td:last-child {
+            text-align: right;
+        }
+    </style>
 </head>
-<body id="top">
+<body>
 
-    <p><a href="index.html">Назад на головну</a></p>
+    <h1>Друзі Кулініч Юлія</h1>
+    <p><a href="index.html" class="back-link">Назад на головну</a></p>
 
     <h2>Мої друзі</h2>
-    <table border="1">
+    <table>
         <caption>Інформація про друзів</caption>
         <thead>
             <tr>
@@ -50,18 +86,8 @@
                 <td>м. Івано-Франківськ, вул. Чорновола, 7</td>
                 <td>+380964445566</td>
             </tr>
-            <tr>
-                <td>Бондаренко</td>
-                <td>Яна</td>
-                <td>31.12.2006</td>
-                <td>м. Івано-Франківськ, вул. Коновальця, 15</td>
-                <td>+380975556677</td>
-            </tr>
         </tbody>
     </table>
-
-    <hr>
-    <p><a href="#top">Уверх</a></p>
 
 </body>
 </html>
